@@ -1,0 +1,32 @@
+
+
+.curculo1 {
+    background-color: rgb(70, 0, 136);
+    border-radius: 50% 0% 0% 0%;
+    transition: 1.5s;
+}
+.circulo1:hover {
+    background-color: rgb(132, 0, 255);
+    margin-top: -5%;
+    margin-left: -5%;
+    transition: 1.5s;
+}
+.circulo2 {
+    background-color: rgb(136, 0, 0);
+    border-radius: 0% 50% 0% 0%;
+    transition: 1.5s;
+}
+.círculo2:hover {
+    background-color: rgb(255, 0, 0);
+    margin-top: -5%;
+    margin-right: +5%;
+    transition: 1.5s
+}
+.circulo3 {
+    background-color: rgb(72, 136, 0);
+    border-radius: 0% 0% 50% 0%;
+    transition: 1.5s;
+}
+
+
+.curculo1 {}
