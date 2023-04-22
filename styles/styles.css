@@ -1,38 +1,59 @@
+
 .circulo1 {
+    margin-top: 13em;
     margin-left: 37.5em;
     background-color: rgb(70, 0, 136);
-    border-radius: 100% 0% 0% 0%;
-    transition: 1.5s;
-    
+    border-radius: 15% 0% 0% 0%;
+    transition: 0.5s;   
 }
 .circulo2 {
+    margin-top: 13em;
+    margin-right: 37.5em;
     background-color: rgb(136, 0, 0);
-    border-radius: 0% 100% 0% 0%;
-    transition: 1.5s;
+    border-radius: 0% 15% 0% 0%;
+    transition: 0.5s;
 }
 .circulo3 {
+    margin-bottom: 15em;
     margin-left: 37.5em;
     background-color: rgb(72, 136, 0);
-    border-radius: 0% 0% 0% 100%;
-    transition: 1.5s;
+    border-radius: 0% 0% 0% 15%;
+    transition: 0.5s;
 }
 .circulo4 {
+    margin-bottom: 15em;
+    margin-right: 37.5em;
     background-color: rgb(0, 136, 136);
-    border-radius: 0% 0% 100% 0%;
-    transition: 1.5s;
+    border-radius: 0% 0% 15% 0%;
+    transition: 0.5s;
 }
 .circulo1:hover {
-    background-color: rgb(132, 0, 255);
+    background-color: rgb(171, 80, 255);
     transition: 1.5s;
+    margin-top: 10em;
+    margin-left: 36em;
+    border-radius: 100% 0% 0% 0%;
 }
 .circulo2:hover {
     background-color: rgb(255, 0, 0);
+    transition: 1.5s;
+    margin-top: 10em;
+    margin-left: 1.5em;
+    border-radius: 0% 100% 0% 0%;
 }
 .circulo3:hover {
     background-color: rgb(136, 255, 0);
+    transition: 1.5s;
+    margin-bottom: 11.5em;
+    margin-left: 36em;
+    border-radius: 0% 0% 0% 100%;
 }
 .circulo4:hover {
     background-color: aqua;
+    transition: 1.5s;
+    margin-bottom: 11.5em;
+    margin-left: 1.5em;
+    border-radius: 0% 0% 100% 0%;
 }
 .circulo1, .circulo2, .circulo3, .circulo4 {
     height: 10em;
